@@ -1,0 +1,6 @@
+ 
+
+<p [ngStyle]="{'background-color': getColor()}"
+[ngClass]="{'online': serverStatus==='online'}">{{'Server'}} The Server Component {{serverId}} is {{getServerStatus()}}</p>
+<!-- dinamic change style binding ngstyle -->
+<!-- ngclass allows us to dinamically add or remove css classes -->
